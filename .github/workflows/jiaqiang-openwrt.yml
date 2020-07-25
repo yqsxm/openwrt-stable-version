@@ -31,10 +31,11 @@ env:
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
+  UPLOAD_BIN_COWTRANSFER: true
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: true
   UPLOAD_WETRANSFER: true
-  UPLOAD_RELEASE: ture
+  UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
 
 jobs:
