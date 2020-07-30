@@ -37,6 +37,7 @@ env:
   UPLOAD_WETRANSFER: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
+  FILE_NAME: openwrtx64稳定精简版
 
 jobs:
   build:
@@ -45,7 +46,7 @@ jobs:
 
     steps:
     - name: WeChat notification
-      run: curl https://sc.ftqq.com/${{ secrets.ServerChan }}.send?text=${{ env.FILE_NAME }}稳定版开始编译
+      run: curl https://sc.ftqq.com/${{ secrets.ServerChan }}.send?text=${{ env.FILE_NAME }}开始编译
       
     - name: Checkout
       uses: actions/checkout@main
@@ -169,7 +170,7 @@ jobs:
       with:
         name: ${{ env.DATE }} 📀 openwrtx64稳定精简版 | 自动编译
         allowUpdates: true
-        tag: openwrt-稳定版4.19
+        tag: openwrtx64稳定精简版
         commit: main
         token: ${{ secrets.RELEASES_TOKEN }}
         body: |
