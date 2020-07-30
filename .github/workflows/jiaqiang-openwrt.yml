@@ -167,7 +167,7 @@ jobs:
         name: ${{ env.DATE }} 📀 openwrtx64稳定精简版 | 自动编译
         allowUpdates: true
         tag: openwrt-稳定版4.19
-        commit: master
+        commit: main
         token: ${{ secrets.RELEASES_TOKEN }}
         body: |
           ${{ env.useVersionInfo }}
