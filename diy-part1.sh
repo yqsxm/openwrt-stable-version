@@ -22,6 +22,8 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-ser
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/luci-app-passwall
+svn co https://github.com/xiaorouji/openwrt-package/trunk/package/v2ray package/v2ray
+svn co https://github.com/xiaorouji/openwrt-package/trunk/package/v2ray-plugin package/v2ray-plugin
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package/brook package/brook
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package/chinadns-ng package/chinadns-ng
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package/tcping package/tcping
